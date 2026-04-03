@@ -1,31 +1,83 @@
-#EXTM3U
-#EXT-X-SESSION-DATA:DATA-ID="com.xui.1_5_13"
-#EXTINF:-1,GUIA: FUTEBOL NACIONAL
-http://dns.leaofera.com:80/MarcelFanini/VyWxDFaye7/490149
-#EXTINF:-1,GUIA: FUTEBOL INTERNACIONAL
-http://dns.leaofera.com:80/MarcelFanini/VyWxDFaye7/490148
-#EXTINF:-1,GUIA: ESPORTES GERAIS
-http://dns.leaofera.com:80/MarcelFanini/VyWxDFaye7/564048
-#EXTINF:-1,GUIA: CORRIDAS
-http://dns.leaofera.com:80/MarcelFanini/VyWxDFaye7/490150
-#EXTINF:-1,GUIA: BASQUETE
-http://dns.leaofera.com:80/MarcelFanini/VyWxDFaye7/490152
-#EXTINF:-1,GUIA: VÔLEI
-http://dns.leaofera.com:80/MarcelFanini/VyWxDFaye7/490151
-#EXTINF:-1,GUIA: NFL
-http://dns.leaofera.com:80/MarcelFanini/VyWxDFaye7/490153
-#EXTINF:-1,GUIA: UFC
-http://dns.leaofera.com:80/MarcelFanini/VyWxDFaye7/490147
-#EXTINF:-1,GB SP CAPITAL 4K
-http://dns.leaofera.com:80/MarcelFanini/VyWxDFaye7/15
-#EXTINF:-1,GB SP CAPITAL FHD H265
-http://dns.leaofera.com:80/MarcelFanini/VyWxDFaye7/135
-#EXTINF:-1,GB SP CAPITAL FHD²
-http://dns.leaofera.com:80/MarcelFanini/VyWxDFaye7/21
-#EXTINF:-1,GB SP CAPITAL FHD³
-http://dns.leaofera.com:80/MarcelFanini/VyWxDFaye7/39
-#EXTINF:-1,GB SP CAPITAL FHD*
-http://dns.leaofera.com:80/MarcelFanini/VyWxDFaye7/145837
-#EXTINF:-1,GB SP CAPITAL HD
-http://dns.leaofera.com:80/MarcelFanini/VyWxDFaye7/94
+<item>
+<title>[COLOR lime][B]GUIA: FUTEBOL NACIONAL[/B][/COLOR]</title>
+<link>http://leaofera.com</link>
+<thumbnail>https://imgur.com</thumbnail>
+</item>
 
+<item>
+<title>[COLOR lime][B]GUIA: FUTEBOL INTERNACIONAL[/B][/COLOR]</title>
+<link>http://leaofera.com</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[COLOR lime][B]GUIA: ESPORTES GERAIS[/B][/COLOR]</title>
+<link>http://leaofera.com</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[COLOR lime][B]GUIA: CORRIDAS[/B][/COLOR]</title>
+<link>http://leaofera.com</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[COLOR lime][B]GUIA: BASQUETE[/B][/COLOR]</title>
+<link>http://leaofera.com</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[COLOR lime][B]GUIA: VÔLEI[/B][/COLOR]</title>
+<link>http://leaofera.com</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[COLOR lime][B]GUIA: NFL[/B][/COLOR]</title>
+<link>http://leaofera.com</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[COLOR lime][B]GUIA: UFC[/B][/COLOR]</title>
+<link>http://leaofera.com</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[COLOR white]GB SP CAPITAL 4K[/COLOR]</title>
+<link>http://leaofera.com</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[COLOR white]GB SP CAPITAL FHD H265[/COLOR]</title>
+<link>http://leaofera.com</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[COLOR white]GB SP CAPITAL FHD²[/COLOR]</title>
+<link>http://leaofera.com</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[COLOR white]GB SP CAPITAL FHD³[/COLOR]</title>
+<link>http://leaofera.com</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[COLOR white]GB SP CAPITAL FHD*[/COLOR]</title>
+<link>http://leaofera.com</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[COLOR white]GB SP CAPITAL HD[/COLOR]</title>
+<link>http://leaofera.com</link>
+<thumbnail></thumbnail>
+</item>
