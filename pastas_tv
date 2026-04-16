@@ -12,7 +12,7 @@ ESTRUTURA = [
     },
     {
         "nome": "📂 Stream_TV",
-        "url": "https://www.tdtchannels.com/lists/tv.m3u",
+        "url": "https://www.tdtchannels.com/lists/tv.m3u8",
         "thumb": "https://t4.ftcdn.net/jpg/02/13/14/73/360_F_213147396_DpxX02P3qAgDu593i8IRf3UO7RzFs7Hw.jpg"
     },
 	{
