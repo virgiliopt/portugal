@@ -22,7 +22,7 @@ ESTRUTURA = [
     },
     {
         "nome": "📂 Youtube",
-        "url": " http://",
+        "url": " http://0.0.0.0",
         "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSbtASAum-ErPyhHMul13dYOAS-gcdbpJtxJTw_seW&s"
     {
         "nome": "📂 Adultos",
