@@ -12,7 +12,7 @@ ESTRUTURA = [
     },
     {
         "nome": "📂 Stream_TV",
-        "url": "http://f2149a4ec361.zatikov.net/playlists/uplist/fdd6e1e5835ba7bb53311ffc36dd1cef/playlist.m3u8",
+        "url": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/Plex/es.xml",
         "thumb": "https://t4.ftcdn.net/jpg/02/13/14/73/360_F_213147396_DpxX02P3qAgDu593i8IRf3UO7RzFs7Hw.jpg"
     },
 	{
