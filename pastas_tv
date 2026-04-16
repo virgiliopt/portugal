@@ -22,7 +22,7 @@ ESTRUTURA = [
     },
     {
         "nome": "📂 Youtube",
-        "url": " http://0.0.0.0",
+        "url": " http://plugin://plugin.video.youtube/play/?playlist_id=PLJn4hP4ODKFwulTtp-HOy09zigLuKVvMN",
         "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSbtASAum-ErPyhHMul13dYOAS-gcdbpJtxJTw_seW&s"
      },
      {
