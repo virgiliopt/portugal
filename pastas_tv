@@ -22,7 +22,7 @@ ESTRUTURA = [
     },
     {
         "nome": "📂 Youtube",
-        "url": "https://raw.githubusercontent.com/kizomba56/kizomba/main/%7B%7B%7B%20Musica_youtube%20%7D%7D%7D",
+        "url": "https://raw.githubusercontent.com/virgiliopt/kizomba/refs/heads/main/%7B%7B%7B%20Musica_youtube%20%7D%7D%7D",
         "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSbtASAum-ErPyhHMul13dYOAS-gcdbpJtxJTw_seW&s"
      },
      {
