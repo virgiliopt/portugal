@@ -27,7 +27,7 @@ ESTRUTURA = [
      },
      {
         "nome": "📂 Adultos",
-        "url": " http://6au8zl0c.megatv.fun/iptv/E8Q36367WLXKB3/6298/index.m3u8|User-Agent=Mozilla/5.0",
+        "url": " https://raw.githubusercontent.com/virgiliopt/portugal/refs/heads/main/Adultos%20%2B18",
         "thumb": "https://i.pinimg.com/originals/42/0b/29/420b2941925c26fd0bf29c64d85c9a73.jpg"
     },
 	
