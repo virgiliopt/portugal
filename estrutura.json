@@ -1,7 +1,7 @@
 [
   {
     "nome": "📺 Canais Portugal",
-    "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/canais.xml",
+    "url": "",
     "thumb": ""
   },
   {
@@ -16,7 +16,7 @@
   },
   {
     "nome": "📹 YouTube",
-    "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/youtube.xml",
+    "url": "plugin://plugin.video.youtube/play/?video_id=krlhprlIpck",
     "thumb": ""
   },
   {
