@@ -1,59 +1,58 @@
-
 [
   {
     "nome": "📺 Canais Portugal",
     "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/canais.xml",
-    "thumb": "https://raw.githubusercontent.com/virgiliopt_REPO/main/logos.png"
+    "thumb": "https://raw.githubusercontent.com/TEU_USER/portugal/main/logos/canais.png"
   },
   {
     "nome": "📡 IPTV",
     "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/iptv.m3u",
-    "thumb": "https://raw.githubusercontent.com/virgiliopt_REPO/main/logos.png"
+    "thumb": "https://raw.githubusercontent.com/TEU_USER/portugal/main/logos/iptv.png"
   },
   {
     "nome": "🎬 Filmes",
     "url": "",
-    "thumb": "https://raw.githubusercontent.com/virgiliopt_REPO/main/logos.png"
+    "thumb": "https://raw.githubusercontent.com/TEU_USER/portugal/main/logos/filmes.png"
   },
   {
     "nome": "📺 Séries",
     "url": "",
-    "thumb": "https://raw.githubusercontent.com/virgiliopt_REPO/main/logos.png"
+    "thumb": "https://raw.githubusercontent.com/TEU_USER/portugal/main/logos/series.png"
   },
   {
     "nome": "🎵 Música",
     "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/musica.xml",
-    "thumb": "https://raw.githubusercontent.com/virgiliopt_REPO/main/logos.png"
+    "thumb": "https://raw.githubusercontent.com/TEU_USER/portugal/main/logos/musica.png"
   },
   {
     "nome": "📹 YouTube",
     "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/youtube.xml",
-    "thumb": "https://raw.githubusercontent.com/TEU_USER/TEU_REPO/main/logos.png"
+    "thumb": "https://raw.githubusercontent.com/virgiliopt/portugal/main/logos/youtube.png"
   },
   {
     "nome": "📡 Plex",
     "url": "",
-    "thumb": "https://raw.githubusercontent.com/TEU_USER/TEU_REPO/main/logos.png"
+    "thumb": "https://raw.githubusercontent.com/TEU_USER/portugal/main/logos/plex.png"
   },
   {
     "nome": "⭐ Favoritos",
     "url": "",
-    "thumb": "https://raw.githubusercontent.com/TEU_USER/TEU_REPO/main/logos.png"
+    "thumb": "https://raw.githubusercontent.com/TEU_USER/portugal/main/logos/favoritos.png"
   },
   {
     "nome": "🕓 Histórico",
     "url": "",
-    "thumb": "https://raw.githubusercontent.com/TEU_USER/TEU_REPO/main/logos.png"
+    "thumb": "https://raw.githubusercontent.com/TEU_USER/portugal/main/logos/historico.png"
   },
   {
     "nome": "🔎 Pesquisa",
     "url": "",
-    "thumb": "https://raw.githubusercontent.com/TEU_USER/TEU_REPO/main/logos.png"
+    "thumb": "https://raw.githubusercontent.com/TEU_USER/portugal/main/logos/pesquisa.png"
   },
   {
     "nome": "🔞 Adultos",
     "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/adultos.xml",
-    "thumb": "https://raw.githubusercontent.com/TEU_USER/TEU_REPO/main/logos.png",
+    "thumb": "https://raw.githubusercontent.com/TEU_USER/portugal/main/logos/adultos.png",
     "adult": true
   }
 ]
