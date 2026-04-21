@@ -2,7 +2,7 @@
 [
   {
     "nome": "📺 Canais Portugal",
-    "url": "https://pastebin.com/raw/cW204MSE",
+    "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/canais.xml",
     "thumb": "https://raw.githubusercontent.com/virgiliopt/portugal/main/logos/canais.png"
   },
   {
@@ -19,41 +19,5 @@
     "nome": "📺 Séries",
     "url": "",
     "thumb": "https://raw.githubusercontent.com/virgiliopt/portugal/main/logos/series.png"
-  },
-  {
-    "nome": "🎵 Música",
-    "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/musica.xml",
-    "thumb": "https://raw.githubusercontent.com/virgiliopt/portugal/main/logos/musica.png"
-  },
-  {
-    "nome": "📹 YouTube",
-    "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/youtube.xml",
-    "thumb": "https://raw.githubusercontent.com/virgiliopt/portugal/main/logos/youtube.png"
-  },
-  {
-    "nome": "📡 Plex",
-    "url": "",
-    "thumb": "https://raw.githubusercontent.com/virgiliopt/portugal/main/logos/plex.png"
-  },
-  {
-    "nome": "⭐ Favoritos",
-    "url": "",
-    "thumb": "https://raw.githubusercontent.com/virgiliopt/portugal/main/logos/favoritos.png"
-  },
-  {
-    "nome": "🕓 Histórico",
-    "url": "",
-    "thumb": "https://raw.githubusercontent.com/virgiliopt/portugal/main/logos/historico.png"
-  },
-  {
-    "nome": "🔎 Pesquisa",
-    "url": "",
-    "thumb": "https://raw.githubusercontent.com/virgiliopt/portugal/main/logos/pesquisa.png"
-  },
-  {
-    "nome": "🔞 Adultos",
-    "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/adultos.xml",
-    "thumb": "https://raw.githubusercontent.com/virgiliopt/portugal/main/logos/adultos.png",
-    "adult": true
   }
 ]
