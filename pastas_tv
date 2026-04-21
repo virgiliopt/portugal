@@ -1,34 +1,36 @@
-# Ficheiro: portugal_Tv 
-ESTRUTURA = [
-    {
-        "nome": "📂 CANAIS PORTUGAL",
-        "url": "https://pastebin.com/raw/cW204MSE",
-        "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/93/74/20/93742049-8315-bae5-a65a-90fdd138ab4c/source/256x256bb.jpg"
-    },
-    {
-        "nome": "📂 IPTV_pt",
-        "url": "http://163.172.72.97:80/playlist/joaobrabosa/01032026/m3u",
-        "thumb": "https://svenskiptv.com/wp-content/uploads/2024/10/XUI-IPTV-Player-Logo-Svensk-IPTV.png"
-    },
-    {
-        "nome": "📂 Hollywood & Disney Plus",
-        "url": "",
-        "thumb": "https://ingresso-a.akamaihd.net/b2b/production/uploads/article/image/3035/8ec45d32c645c55928d598a2f39700d7.jpg"
-    },
-	{
-        "nome": "📂 Consertos_Musica",
-        "url": "https://pastebin.com/raw/y8u95Rz7",
-        "thumb": "https://img.freepik.com/premium-photo/vibrant-music-festival-logo-with-neon-colors-musical-icons-dark-background_606187-25826.jpg"
-    },
-    {
-        "nome": "📂 Youtube",
-        "url": "https://pastebin.com/raw/zdqnCLjT",
-        "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSbtASAum-ErPyhHMul13dYOAS-gcdbpJtxJTw_seW&s"
-     },
-     {
-        "nome": "📂 Adultos",
-        "url": " https://dl.dropboxusercontent.com/scl/fo/cxiwy66mogbjk9s7fptyq/ALnCpc7eOGvzGY4lpXkbs-E?rlkey=v7oawyla1ps1lifz46vpjxdk2&st=g96523bx&dl=1",
-        "thumb": "https://i.pinimg.com/originals/42/0b/29/420b2941925c26fd0bf29c64d85c9a73.jpg"
-    },
-	
+
+</> JSON
+
+[
+  {
+    "nome": "📂 CANAIS PORTUGAL",
+    "url": "https://pastebin.com/raw/cW204MSE",
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/93/74/20/93742049-8315-bae5-a65a-90fdd138ab4c/source/256x256bb.jpg"
+  },
+  {
+    "nome": "📂 IPTV_pt",
+    "url": "http://163.172.72.97:80/playlist/joaobrabosa/01032026/m3u",
+    "thumb": "https://svenskiptv.com/wp-content/uploads/2024/10/XUI-IPTV-Player-Logo-Svensk-IPTV.png"
+  },
+  {
+    "nome": "📂 Hollywood & Disney Plus",
+    "url": "",
+    "thumb": "https://ingresso-a.akamaihd.net/b2b/production/uploads/article/image/3035/8ec45d32c645c55928d598a2f39700d7.jpg"
+  },
+  {
+    "nome": "📂 Concertos Música",
+    "url": "https://pastebin.com/raw/y8u95Rz7",
+    "thumb": "https://img.freepik.com/premium-photo/vibrant-music-festival-logo-with-neon-colors-musical-icons-dark-background_606187-25826.jpg"
+  },
+  {
+    "nome": "📂 Youtube",
+    "url": "https://pastebin.com/raw/zdqnCLjT",
+    "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSbtASAum-ErPyhHMul13dYOAS-gcdbpJtxJTw_seW&s"
+  },
+  {
+    "nome": "🔞 Adultos",
+    "url": "https://dl.dropboxusercontent.com/scl/fo/cxiwy66mogbjk9s7fptyq/ALnCpc7eOGvzGY4lpXkbs-E?rlkey=v7oawyla1ps1lifz46vpjxdk2&dl=1",
+    "thumb": "https://i.pinimg.com/originals/42/0b/29/420b2941925c26fd0bf29c64d85c9a73.jpg",
+    "adult": true
+  }
 ]
