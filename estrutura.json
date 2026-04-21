@@ -1,28 +1,59 @@
+
 [
   {
     "nome": "📺 Canais Portugal",
-    "url": "https://pastebin.com/raw/cW204MSE",
-    "thumb": ""
+    "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/canais.xml",
+    "thumb": "https://raw.githubusercontent.com/TEU_USER/TEU_REPO/main/logos.png"
   },
   {
     "nome": "📡 IPTV",
-    "url": "http://163.172.72.97:80/playlist/joaobrabosa/01032026/m3u",
-    "thumb": "https://svenskiptv.com/wp-content/uploads/2024/10/XUI-IPTV-Player-Logo-Svensk-IPTV.png"
+    "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/iptv.m3u",
+    "thumb": "https://raw.githubusercontent.com/TEU_USER/TEU_REPO/main/logos.png"
+  },
+  {
+    "nome": "🎬 Filmes",
+    "url": "",
+    "thumb": "https://raw.githubusercontent.com/TEU_USER/TEU_REPO/main/logos.png"
+  },
+  {
+    "nome": "📺 Séries",
+    "url": "",
+    "thumb": "https://raw.githubusercontent.com/TEU_USER/TEU_REPO/main/logos.png"
   },
   {
     "nome": "🎵 Música",
     "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/musica.xml",
-    "thumb": ""
+    "thumb": "https://raw.githubusercontent.com/TEU_USER/TEU_REPO/main/logos.png"
   },
   {
     "nome": "📹 YouTube",
-    "url": "plugin://plugin.video.youtube/play/?video_id=krlhprlIpck",
-    "thumb": ""
+    "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/youtube.xml",
+    "thumb": "https://raw.githubusercontent.com/TEU_USER/TEU_REPO/main/logos.png"
+  },
+  {
+    "nome": "📡 Plex",
+    "url": "",
+    "thumb": "https://raw.githubusercontent.com/TEU_USER/TEU_REPO/main/logos.png"
+  },
+  {
+    "nome": "⭐ Favoritos",
+    "url": "",
+    "thumb": "https://raw.githubusercontent.com/TEU_USER/TEU_REPO/main/logos.png"
+  },
+  {
+    "nome": "🕓 Histórico",
+    "url": "",
+    "thumb": "https://raw.githubusercontent.com/TEU_USER/TEU_REPO/main/logos.png"
+  },
+  {
+    "nome": "🔎 Pesquisa",
+    "url": "",
+    "thumb": "https://raw.githubusercontent.com/TEU_USER/TEU_REPO/main/logos.png"
   },
   {
     "nome": "🔞 Adultos",
     "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/adultos.xml",
-    "thumb": "",
+    "thumb": "https://raw.githubusercontent.com/TEU_USER/TEU_REPO/main/logos.png",
     "adult": true
   }
 ]
