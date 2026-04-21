@@ -1,1 +1,30 @@
+</>JSON
 
+[
+  {
+    "nome": "📺 Canais Portugal",
+    "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/canais.xml",
+    "thumb": ""
+  },
+  {
+    "nome": "📡 IPTV",
+    "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/iptv.m3u",
+    "thumb": ""
+  },
+  {
+    "nome": "🎵 Música",
+    "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/musica.xml",
+    "thumb": ""
+  },
+  {
+    "nome": "📹 YouTube",
+    "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/youtube.xml",
+    "thumb": ""
+  },
+  {
+    "nome": "🔞 Adultos",
+    "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/adultos.xml",
+    "thumb": "",
+    "adult": true
+  }
+]
