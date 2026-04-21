@@ -6,8 +6,8 @@
   },
   {
     "nome": "📡 IPTV",
-    "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/iptv.m3u",
-    "thumb": ""
+    "url": "http://163.172.72.97:80/playlist/joaobrabosa/01032026/m3u",
+    "thumb": "https://svenskiptv.com/wp-content/uploads/2024/10/XUI-IPTV-Player-Logo-Svensk-IPTV.png"
   },
   {
     "nome": "🎵 Música",
