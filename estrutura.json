@@ -1,58 +1,45 @@
 [
   {
-    "nome": "📺 Canais Portugal",
-    "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/canais.xml",
-    "thumb": "https://raw.githubusercontent.com/virgiliopt/portugal/main/logos/canais.png"
+    "nome": "CANAIS",
+    "url": "https://pastebin.com/raw/cW204MSE",
+    "thumb": "https://image.tmdb.org/t/p/w500/8YFL5QQVPy3AgrEQxNYVSgiPEbe.jpg",
+    "fanart": "https://image.tmdb.org/t/p/original/8YFL5QQVPy3AgrEQxNYVSgiPEbe.jpg"
   },
   {
-    "nome": "📡 IPTV",
-    "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/iptv.m3u",
-    "thumb": "https://raw.githubusercontent.com/virgiliopt/portugal/main/logos/iptv.png"
-  },
-  {
-    "nome": "🎬 Filmes",
+    "nome": "IPTV",
     "url": "",
-    "thumb": "https://raw.githubusercontent.com/virgiliopt/portugal/main/logos/filmes.png"
+    "thumb": "https://image.tmdb.org/t/p/w500/xBHvZcjRiWyobQ9kxBhO6B2dtRI.jpg",
+    "fanart": "https://image.tmdb.org/t/p/original/xBHvZcjRiWyobQ9kxBhO6B2dtRI.jpg"
   },
   {
-    "nome": "📺 Séries",
+    "nome": "FILMES",
     "url": "",
-    "thumb": "https://raw.githubusercontent.com/virgiliopt/portugal/main/logos/series.png"
+    "thumb": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "fanart": "https://image.tmdb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
   },
   {
-    "nome": "🎵 Música",
-    "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/musica.xml",
-    "thumb": "https://raw.githubusercontent.com/virgiliopt/portugal/main/logos/musica.png"
+    "nome": "SÉRIES",
+    "url": "",
+    "thumb": "https://image.tmdb.org/t/p/w500/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
+    "fanart": "https://image.tmdb.org/t/p/original/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg"
   },
   {
-    "nome": "📹 YouTube",
+    "nome": "YOUTUBE",
     "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/youtube.xml",
-    "thumb": "https://raw.githubusercontent.com/virgiliopt/portugal/main/logos/youtube.png"
+    "thumb": "https://cdn-icons-png.flaticon.com/512/1384/1384060.png",
+    "fanart": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7"
   },
   {
-    "nome": "📡 Plex",
+    "nome": "PLEX",
     "url": "plex",
-    "thumb": "https://raw.githubusercontent.com/virgiliopt/portugal/main/logos/plex.png"
+    "thumb": "https://cdn-icons-png.flaticon.com/512/732/732228.png",
+    "fanart": "https://images.unsplash.com/photo-1517602302552-471fe67acf66"
   },
   {
-    "nome": "⭐ Favoritos",
-    "url": "",
-    "thumb": "https://raw.githubusercontent.com/virgiliopt/portugal/main/logos/favoritos.png"
-  },
-  {
-    "nome": "🕓 Histórico",
-    "url": "",
-    "thumb": "https://raw.githubusercontent.com/virgiliopt/portugal/main/logos/historico.png"
-  },
-  {
-    "nome": "🔎 Pesquisa",
-    "url": "",
-    "thumb": "https://raw.githubusercontent.com/virgiliopt/portugal/main/logos/pesquisa.png"
-  },
-  {
-    "nome": "🔞 Adultos",
+    "nome": "ADULTOS",
     "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/adultos.xml",
-    "thumb": "https://raw.githubusercontent.com/virgiliopt/portugal/main/logos/adultos.png",
+    "thumb": "https://cdn-icons-png.flaticon.com/512/565/565547.png",
+    "fanart": "https://images.unsplash.com/photo-1497032205916-ac775f0649ae",
     "adult": true
   }
 ]
