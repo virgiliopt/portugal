@@ -2,8 +2,8 @@
   {
     "nome": "CANAIS",
     "url": "https://pastebin.com/raw/cW204MSE",
-    "thumb": "https://image.tmdb.org/t/p/w500/8YFL5QQVPy3AgrEQxNYVSgiPEbe.jpg",
-    "fanart": "https://image.tmdb.org/t/p/original/8YFL5QQVPy3AgrEQxNYVSgiPEbe.jpg"
+    "thumb": "https://cdn.aptoide.com/imgs/9/1/d/91df98a9ef9df7f4377e24e7b9b9e20a_icon.png",
+    "fanart": "https://cdn.aptoide.com/imgs/9/1/d/91df98a9ef9df7f4377e24e7b9b9e20a_icon.png"
   },
   {
     "nome": "IPTV",
@@ -38,8 +38,8 @@
   {
     "nome": "ADULTOS",
     "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/adultos.xml",
-    "thumb": "https://cdn-icons-png.flaticon.com/512/565/565547.png",
-    "fanart": "https://images.unsplash.com/photo-1497032205916-ac775f0649ae",
+    "thumb": "https://w0.peakpx.com/wallpaper/238/178/HD-wallpaper-over-18-only-18-plus-saying-thumbnail.jpg",
+    "fanart": "https://w0.peakpx.com/wallpaper/238/178/HD-wallpaper-over-18-only-18-plus-saying-thumbnail.jpg",
     "adult": true
   }
 ]
