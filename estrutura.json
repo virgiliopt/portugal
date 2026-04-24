@@ -14,7 +14,7 @@
   {
      "nome": "Jellyfin Filmes & Disney Plus",
      "url": "http://192.168.1.200:8096/Videos/Remote?api_key=TUA_API_KEY",
-     "thumb": "https://jellyfin.org""
+     "thumb": "https://jellyfin.org"
   },
   {
     "nome": "SÉRIES",
