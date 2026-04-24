@@ -12,7 +12,7 @@
     "fanart": "https://iptvpanel24.com/wp-content/uploads/2024/10/XUI-IPTV-Player-Logo-Svensk-IPTV-e1729531059604.png"
   },
   {
-     "nome": " Walt Disney Pictures e Pixar",
+     "nome": "Disney,Pixar,Marvel,Dreamworks",
      "url": "http://192.168.1.200:8096/Items?Recursive=true&IncludeItemTypes=Movie&AnyStudio=Disney,Pixar,Marvel,Dreamworks&api_key=2c1a5dc8805a43478969e4d63a928075",
      "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkgcTLCD8YHFA6DGzyTSg1B9--sKwrQmWLxHiA4w0LSg&s",
      "fanart": "https://jellyfin.org"
