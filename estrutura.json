@@ -7,7 +7,7 @@
   },
   {
     "nome": "IPTV",
-    "url": "https://iptv-org.github.io/iptv/index.category.m3u",
+    "url": "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/PLAYLISTS.md",
     "thumb": "https://iptvpanel24.com/wp-content/uploads/2024/10/XUI-IPTV-Player-Logo-Svensk-IPTV-e1729531059604.png",
     "fanart": "https://iptvpanel24.com/wp-content/uploads/2024/10/XUI-IPTV-Player-Logo-Svensk-IPTV-e1729531059604.png"
   },
