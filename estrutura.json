@@ -36,6 +36,12 @@
     "fanart": "https://leclaireur.fnac.com/wp-content/uploads/2022/08/plex.jpg"
   },
   {
+    "nome": "Radio_PT",
+    "url": "https://raw.githubusercontent.com/virgiliopt/portugal/refs/heads/main/Radio.xml",
+    "thumb": "https://m.media-amazon.com/images/I/71ihJlhdwOL._AC_UF1000,1000_QL80_.jpg",
+    "fanart": "https://leclaireur.fnac.com/wp-content/uploads/2022/08/plex.jpg"
+  },
+  {
     "nome": "ADULTOS",
     "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/adultos.xml",
     "thumb": "https://w0.peakpx.com/wallpaper/238/178/HD-wallpaper-over-18-only-18-plus-saying-thumbnail.jpg",
