@@ -7,7 +7,7 @@
   },
   {
     "nome": "IPTV",
-    "url": "",
+    "url": "https://0.0.0.0",
     "thumb": "https://iptvpanel24.com/wp-content/uploads/2024/10/XUI-IPTV-Player-Logo-Svensk-IPTV-e1729531059604.png",
     "fanart": "https://iptvpanel24.com/wp-content/uploads/2024/10/XUI-IPTV-Player-Logo-Svensk-IPTV-e1729531059604.png"
   },
@@ -19,7 +19,7 @@
   },
   {
     "nome": "Cinema Hollywood",
-    "url": "",
+    "url": "https://0.0.0.0",
     "thumb": "https://image.tmdb.org/t/p/w500/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
     "fanart": "https://image.tmdb.org/t/p/original/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg"
   },
@@ -31,7 +31,7 @@
   },
   {
     "nome": "PLEX Hollywood & Walt Disney Pictures e Pixar",
-    "url": "plex",
+    "url": "https://127.0.0.0",
     "thumb": "https://play-lh.googleusercontent.com/slZYN_wnlAZ4BmyTZZakwfwAGm8JE5btL7u7AifhqCtUuxhtVVxQ1mcgpGOYC7MsAaU=w240-h480-rw",
     "fanart": "https://leclaireur.fnac.com/wp-content/uploads/2022/08/plex.jpg"
   },
