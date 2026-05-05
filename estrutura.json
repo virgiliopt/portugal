@@ -7,7 +7,7 @@
   },
   {
     "nome": "IPTV",
-    "url": "https://sportsonline.vc/prog.txt",
+    "url": "https://raw.githubusercontent.com/virgiliopt/portugal/refs/heads/main/iptv.m3u",
     "thumb": "https://iptvpanel24.com/wp-content/uploads/2024/10/XUI-IPTV-Player-Logo-Svensk-IPTV-e1729531059604.png",
     "fanart": "https://iptvpanel24.com/wp-content/uploads/2024/10/XUI-IPTV-Player-Logo-Svensk-IPTV-e1729531059604.png"
   },
