@@ -20,7 +20,7 @@
   },
   {
     "nome": "Cinema Hollywood",
-    "url": "http://192.168.1.200:32400/library/sections/1/all?X-Plex-Token=MEZTvianC7VbzGqFMFFL",
+    "url": "https://raw.githubusercontent.com/virgiliopt/portugal/main/Cinema",
     "thumb": "https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_700/MTc0NDk4NTU2ODY5NDg2MjE0/facts-about-your-favorite-classic-hollywood-movie-stars.webp",
     "fanart": "https://image.tmdb.org/t/p/original/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg"
   },
@@ -32,7 +32,7 @@
   },
   {
     "nome": "PLEX Hollywood & Walt Disney Pictures e Pixar",
-    "url": "",
+    "url": "http://192.168.1.200:32400/library/sections/1/all?X-Plex-Token=MEZTvianC7VbzGqFMFFL",
     "thumb": "https://play-lh.googleusercontent.com/slZYN_wnlAZ4BmyTZZakwfwAGm8JE5btL7u7AifhqCtUuxhtVVxQ1mcgpGOYC7MsAaU=w240-h480-rw",
     "fanart": "https://leclaireur.fnac.com/wp-content/uploads/2022/08/plex.jpg"
   },
