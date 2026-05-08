@@ -14,7 +14,7 @@
   },
   {
      "nome": "Disney, Pixar, Marvel & Dreamworks",
-     "url": "https://ptjellyfin.duckdns.org:8096/Items?Recursive=true&IncludeItemTypes=Movie&AnyStudio=Disney,Pixar,Marvel,Dreamworks&Limit=1000&api_key=2c1a5dc8805a43478969e4d63a928075",
+     "url": "http://192.168.1.200:8096/Items?Recursive=true&IncludeItemTypes=Movie&AnyStudio=Disney,Pixar,Marvel,Dreamworks&Limit=1000&api_key=2c1a5dc8805a43478969e4d63a928075",
      "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkgcTLCD8YHFA6DGzyTSg1B9--sKwrQmWLxHiA4w0LSg&s",
      "fanart": "https://jellyfin.org"
   },
