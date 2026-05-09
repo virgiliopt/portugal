@@ -14,7 +14,7 @@
   },
   {
      "nome": "Disney Plus",
-     "url": "http://192.168.1.200:8096/Items?Recursive=true&IncludeItemTypes=Movie&AnyStudio=Disney%20Plus&Limit=1000&api_key=2c1a5dc8805a43478969e4d63a928075",
+     "url": "http://192.168.1.200:8096/Items?Recursive=true&IncludeItemTypes=dfb26fb0dc12c85cc2e024f6dd415cc6&AnyStudio=Disney%20Plus&Limit=1000&api_key=2c1a5dc8805a43478969e4d63a928075",
      "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkgcTLCD8YHFA6DGzyTSg1B9--sKwrQmWLxHiA4w0LSg&s",
      "fanart": "https://jellyfin.org"
   },
