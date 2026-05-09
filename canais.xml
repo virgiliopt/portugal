@@ -3,10 +3,10 @@
 https://d1xc25jm9e0l4b.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-xplkt8i7m24dc/XITE_Siempre_Latino.m3u8
 
 #EXTINF:-1 group-title="Música" tvg-logo="https://githubusercontent.com",XITE Nuevo Latino
-https://cloudfront.net
+https://d3bsgqzbpkrvbb.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-w288eaw03izg1/XITE_Nuevo_Latino.m3u8
 
 #EXTINF:-1 group-title="Internacional" tvg-logo="https://githubusercontent.com",TV Zimbo
-https://vods2africa.com
+https://sgn-cdn-video.vods2africa.com/Tv-Zimbo/index.fmp4.m3u8
 
 #EXTINF:-1 group-title="Portugal" tvg-logo="https://githubusercontent.com",RTP 1 HD
 https://rtp.pt
