@@ -20,7 +20,7 @@
   },
   {
     "nome": "Filmes",
-    "url": "http://192.168.1.200:8096/Items?Recursive=true&IncludeItemTypes=ParentId=af92f2d68eea947c7f9df41836afb987&collectionType=movies&ExcludeStudios=Filmes&Limit=1000&api_key=2c1a5dc8805a43478969e4d63a928075",
+    "url": "http://192.168.1.200:8096/Items?Recursive=true&IncludeItemTypes=Moie&&ParentId=af92f2d68eea947c7f9df41836afb987&ExcludeStudios=Disney%20Plus&Limit=1000&api_key=2c1a5dc8805a43478969e4d63a928075",
     "thumb": "https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_700/MTc0NDk4NTU2ODY5NDg2MjE0/facts-about-your-favorite-classic-hollywood-movie-stars.webp",
     "fanart": "https://image.tmdb.org/t/p/original/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg"
   },
