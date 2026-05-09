@@ -1,1 +1,34 @@
 
+#EXTM3U
+#EXTINF:-1 group-title="Música" tvg-logo="https://githubusercontent.com",XITE Siempre Latino
+https://cloudfront.net
+
+#EXTINF:-1 group-title="Música" tvg-logo="https://githubusercontent.com",XITE Nuevo Latino
+https://cloudfront.net
+
+#EXTINF:-1 group-title="Internacional" tvg-logo="https://githubusercontent.com",TV Zimbo
+https://vods2africa.com
+
+#EXTINF:-1 group-title="Portugal" tvg-logo="https://githubusercontent.com",RTP 1 HD
+https://rtp.pt
+
+#EXTINF:-1 group-title="Portugal" tvg-logo="https://githubusercontent.com",RTP 2 HD
+https://rtp.pt
+
+#EXTINF:-1 group-title="Portugal" tvg-logo="https://githubusercontent.com",RTP África
+https://rtp.pt
+
+#EXTINF:-1 group-title="Portugal" tvg-logo="https://githubusercontent.com",RTP Internacional
+https://rtp.pt
+
+#EXTINF:-1 group-title="Portugal" tvg-logo="https://githubusercontent.com",RTP Notícias
+https://rtp.pt
+
+#EXTINF:-1 group-title="Portugal" tvg-logo="https://githubusercontent.com",SIC Novelas
+https://okast.tv
+
+#EXTINF:-1 group-title="Portugal" tvg-logo="https://githubusercontent.com",SIC Alta Definição
+https://okast.tv
+
+#EXTINF:-1 group-title="Rádio" tvg-logo="https://githubusercontent.com",Parecis FM
+https://brasilstream.com.br
