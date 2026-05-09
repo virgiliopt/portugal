@@ -19,8 +19,8 @@
      "fanart": "https://jellyfin.org"
   },
   {
-    "nome": "filmes",
-    "url": "http://192.168.1.200:8096/Items?Recursive=true&IncludeItemTypes=Movie&Limit=1000&api_key=2c1a5dc8805a43478969e4d63a928075",
+    "nome": "Filmes",
+    "url": "http://192.168.1.200:8096/Items?Recursive=true&IncludeItemTypes=Movie&ExcludeStudios=Filmes&Limit=1000&api_key=2c1a5dc8805a43478969e4d63a928075",
     "thumb": "https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_700/MTc0NDk4NTU2ODY5NDg2MjE0/facts-about-your-favorite-classic-hollywood-movie-stars.webp",
     "fanart": "https://image.tmdb.org/t/p/original/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg"
   },
