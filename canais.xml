@@ -1,33 +1,37 @@
 #EXTM3U
-#EXTINF:-1 group-title="Música" tvg-logo="https://githubusercontent.com",XITE Siempre Latino
+
+#EXTINF:-1 group-title="Música" tvg-logo="https://imgur.com",XITE Siempre Latino
 https://d1xc25jm9e0l4b.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-xplkt8i7m24dc/XITE_Siempre_Latino.m3u8
 
-#EXTINF:-1 group-title="Música" tvg-logo="https://githubusercontent.com",XITE Nuevo Latino
+#EXTINF:-1 group-title="Música" tvg-logo="https://imgur.com",XITE Nuevo Latino
 https://d3bsgqzbpkrvbb.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-w288eaw03izg1/XITE_Nuevo_Latino.m3u8
 
-#EXTINF:-1 group-title="Internacional" tvg-logo="https://githubusercontent.com",TV Zimbo
+#EXTINF:-1 group-title="Internacional" tvg-logo="https://imgur.com",TV Zimbo
 https://sgn-cdn-video.vods2africa.com/Tv-Zimbo/index.fmp4.m3u8
 
-#EXTINF:-1 group-title="Portugal" tvg-logo="https://githubusercontent.com",RTP 1 HD
+#EXTINF:-1 group-title="Portugal" tvg-logo="https://imgur.com",RTP 1 HD
 https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="Portugal" tvg-logo="https://githubusercontent.com",RTP 2 HD
-https://rtp.pt
+#EXTINF:-1 group-title="Portugal" tvg-logo="https://imgur.com",RTP 2 HD
+https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="Portugal" tvg-logo="https://githubusercontent.com",RTP África
-https://rtp.pt
+#EXTINF:-1 group-title="Portugal" tvg-logo="https://imgur.com",RTP África
+https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="Portugal" tvg-logo="https://githubusercontent.com",RTP Internacional
-https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/chunklist_b1290000_slpt.m3u8
+#EXTINF:-1 group-title="Portugal" tvg-logo="https://imgur.com",RTP Internacional
+https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="Portugal" tvg-logo="https://githubusercontent.com",RTP Notícias
-https://rtp.pt
+#EXTINF:-1 group-title="Portugal" tvg-logo="https://imgur.com",RTP Notícias
+https://streaming-live.rtp.pt/livetvhlsDVR/rtpndvr.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="Portugal" tvg-logo="https://githubusercontent.com",SIC Novelas
-https://production-fast-sic.content.okast.tv/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_video_1080p30.m3u8?bpkio_serviceid=fa2e8c4385712f9a7dce4ff2dcebac2e&bpkio_sessionid=10a0a249a34-b1487d3d-2711-45d3-988e-a117051f26d0&category=all&mm_sp
+#EXTINF:-1 group-title="Portugal" tvg-logo="https://imgur.com",SIC Novelas
+https://production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8
 
-#EXTINF:-1 group-title="Portugal" tvg-logo="https://githubusercontent.com",SIC Alta Definição
-https://okast.tv
+#EXTINF:-1 group-title="Portugal" tvg-logo="https://imgur.com",SIC Alta Definição
+https://production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8
 
-#EXTINF:-1 group-title="Rádio" tvg-logo="https://githubusercontent.com",Parecis FM
-https://brasilstream.com.br
+#EXTINF:-1 group-title="Rádio" tvg-logo="https://imgur.com",Parecis FM
+https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8
+
+#EXTINF:-1 group-title="Outros" tvg-logo="https://imgur.com",Canal Extra
+https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
