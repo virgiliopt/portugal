@@ -15,13 +15,13 @@
   {
      "nome": "Disney Plus",
      "url": "http://192.168.1.200:8096/Items?Recursive=true&IncludeItemTypes=Movie&ParentId=dfb26fb0dc12c85cc2e024f6dd415cc6&AnyStudio=Disney%20Plus&Limit=1000&api_key=2c1a5dc8805a43478969e4d63a928075",
-     "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkgcTLCD8YHFA6DGzyTSg1B9--sKwrQmWLxHiA4w0LSg&s",
+     "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzhp8u1Ki6NoTKcdIPU_eZlHGBp_L3Mj27lA&s",
      "fanart": "https://jellyfin.org"
   },
   {
     "nome": "Filmes",
     "url": "http://192.168.1.200:8096/Items?Recursive=true&IncludeItemTypes=Moie&&ParentId=af92f2d68eea947c7f9df41836afb987&ExcludeStudios=Disney%20Plus&Limit=1000&api_key=2c1a5dc8805a43478969e4d63a928075",
-    "thumb": "https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_700/MTc0NDk4NTU2ODY5NDg2MjE0/facts-about-your-favorite-classic-hollywood-movie-stars.webp",
+    "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5757duf_BZm1HChW0Hyzo78NVAusIQ4x4qiFuwNF3&s",
     "fanart": "https://image.tmdb.org/t/p/original/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg"
   },
   {
