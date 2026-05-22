@@ -8,7 +8,7 @@
   },
   {
     "nome": "IPTV",
-    "url": "http://tv14s.xyz:8080/get.php?username=philadam@rogers.com&password=eIMpyjb5R6&type=m3u",
+    "url": "https://raw.githubusercontent.com/virgiliopt/portugal/refs/heads/main/iptv.m3u",
     "thumb": "https://iptvpanel24.com/wp-content/uploads/2024/10/XUI-IPTV-Player-Logo-Svensk-IPTV-e1729531059604.png",
     "fanart": "https://iptvpanel24.com/wp-content/uploads/2024/10/XUI-IPTV-Player-Logo-Svensk-IPTV-e1729531059604.png"
   },
