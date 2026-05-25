@@ -1,6 +1,6 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="Portugal" tvg-logo="https://imgur.com",**** Nacionais ****
+#EXTINF:-1 group-title="Portugal" tvg-logo="https://quinto-canal.com/wp-content/uploads/2020/01/logo-logos-rtp-sic-tvi-canais-generalistas.png,**** Nacionais ****
 https://
 
 #EXTINF:-1 group-title="Portugal" tvg-logo="https://imgur.com",RTP 1 HD
@@ -39,7 +39,7 @@ https://production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/ch
 #EXTINF:-1 group-title="Internacional" tvg-logo="https://imgur.com",TV Zimbo
 https://sgn-cdn-video.vods2africa.com/Tv-Zimbo/index.fmp4.m3u8
 
-#EXTINF:-1 group-title="Filmes" tvg-logo="https://imgur.com",**** Filmes ****
+#EXTINF:-1 group-title="Filmes" tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/010/286/340/small/online-cinema-art-movie-watching-with-popcorn-and-film-strip-cinematograph-concept-png.png",**** Filmes ****
 https://
 
 #EXTINF:-1 group-title="rakuten-tv-pt" tvg-logo="https://imgur.com",Top-Movies
@@ -54,7 +54,10 @@ https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8|User-Agent=Mozilla
 #EXTINF:-1 group-title="samsung-pt" tvg-logo="https://imgur.com",LiveChannel
 https://48faa1daf24549fab34594bc5bdd99f2.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6213/master.m3u8|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36
 
-#EXTINF:-1 group-title="Musica" tvg-logo="https://imgur.com",**** Musica ****
+#EXTINF:-1 group-title="desporto" tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/027/951/459/small/balls-football-sport-art-and-brush-strokes-style-png.png",**** Desporto ****
+https://
+
+#EXTINF:-1 group-title="Musica" tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/051/685/462/small/colorful-music-notes-png.png",**** Musica ****
 https://
 
 #EXTINF:-1 group-title="Música" tvg-logo="https://imgur.com",XITE Siempre Latino
