@@ -15,7 +15,7 @@
   {
      "nome": "Disney Plus",
      "url": "http://192.168.1.200:8096/Items?Recursive=true&IncludeItemTypes=Movie&ParentId=dfb26fb0dc12c85cc2e024f6dd415cc6&AnyStudio=Disney%20Plus&Limit=1000&api_key=2c1a5dc8805a43478969e4d63a928075",
-     "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDNsrcsmyltJ1QSVDH_gzruTl5mfB_Ig2ZjA&s",
+     "thumb": "https://www.pngall.com/wp-content/uploads/2018/05/Disney-PNG.png",
      "fanart": "https://jellyfin.org"
   },
   {
