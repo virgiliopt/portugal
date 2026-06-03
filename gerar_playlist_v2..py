@@ -4,7 +4,7 @@ import urllib.request
 import ssl
 import re
 
-URL_ESTRUTURA = "https://githubusercontent.com"
+URL_ESTRUTURA = "https://raw.githubusercontent.com/virgiliopt/portugal/refs/heads/main/iptv.m3u"
 URL_EPG = "https://githubusercontent.com"
 FICHEIRO_SAIDA = "lista_final.m3u"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
