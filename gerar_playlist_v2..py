@@ -1,127 +1,91 @@
 # -*- coding: utf-8 -*-
-import json
 import urllib.request
+import json
 import ssl
-import re
+import xml.etree.ElementTree as ET
+from xml.dom import minidom
 
-URL_ESTRUTURA = "https://raw.githubusercontent.com/virgiliopt/portugal/refs/heads/main/iptv.m3u"
-URL_EPG = "https://githubusercontent.com"
-FICHEIRO_SAIDA = "lista_final.m3u"
-UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+# Configurações do Portal fornecido
+PORTAL_URL = "http://foxbleu.pro"
+MAC_ADDRESS = "00:1A:79:74:8F:27"
+FICHEIRO_SAIDA_XML = "lista_portal.xml"
+UA = "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 sb2 embedded Safari/533.3"
 
-def obter_html(url):
-    """Descarrega o conteúdo de qualquer URL (JSON, M3U ou XML)."""
+def requisicao_portal(action, params="", token=None):
+    """Efetua pedidos POST/GET à API do Stalker Portal."""
+    url = f"{PORTAL_URL}?type=itv&action={action}&{params}"
+    headers = {
+        'User-Agent': UA,
+        'Cookie': f'mac={MAC_ADDRESS}'
+    }
+    if token:
+        headers['Authorization'] = f'Bearer {token}'
+        
     try:
-        req = urllib.request.Request(url, headers={'User-Agent': UA})
+        req = urllib.request.Request(url, headers=headers)
         contexto_ssl = ssl._create_unverified_context()
         with urllib.request.urlopen(req, context=contexto_ssl, timeout=15) as resposta:
-            return resposta.read().decode('utf-8', errors='ignore')
+            return json.loads(resposta.read().decode('utf-8', errors='ignore'))
     except Exception as e:
-        print(f"Erro ao aceder a {url}: {e}")
-        return ""
+        print(f"Erro na ação '{action}': {e}")
+        return None
 
-def extrair_m3u_externo(conteudo_m3u, grupo_padrao):
-    """Processa blocos de playlists M3U externas e injeta o grupo correto."""
-    linhas = conteudo_m3u.splitlines()
-    blocos_canais = []
-    info_atual = None
+def obter_canais_e_gerar_xml():
+    print(f"A autenticar no portal com o MAC: {MAC_ADDRESS}...")
     
-    for linha in linhas:
-        linha = linha.strip()
-        if not linha:
-            continue
-        if linha.startswith("#EXTINF"):
-            # Força ou adiciona a categoria baseada no menu do seu JSON
-            if "group-title=" not in linha:
-                linha = linha.replace("#EXTINF:-1", f'#EXTINF:-1 group-title="{grupo_padrao}"')
-            info_atual = linha
-        elif linha.startswith("http") and info_atual:
-            blocos_canais.append(f"{info_atual}\n{linha}\n")
-            info_atual = None
-            
-    return blocos_canais
-
-def converter_xml_para_m3u(conteudo_xml, grupo_padrao):
-    """Converte estruturas simples de ficheiros XML (padrão Kodi) para formato M3U."""
-    blocos_canais = []
-    # Expressão regular simples para capturar tags <item> habituais em builds Kodi
-    itens = re.findall(r'<item>(.*?)</item>', conteudo_xml, re.DOTALL)
-    
-    for item in itens:
-        title = re.search(r'<title>(.*?)</title>', item)
-        link = re.search(r'<link>(.*?)</link>', item)
-        thumbnail = re.search(r'<thumbnail>(.*?)</thumbnail>', item)
-        
-        if title and link:
-            nome = title.group(1).strip()
-            url_stream = link.group(1).strip()
-            logo = thumbnail.group(1).strip() if thumbnail else ""
-            
-            # Filtra links que sejam apenas ficheiros de texto/scripts expansíveis
-            if url_stream.startswith("http") and not url_stream.endswith(('.xml', '.json')):
-                linha = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{grupo_padrao}",{nome}\n{url_stream}\n'
-                blocos_canais.append(linha)
-                
-    return blocos_canais
-
-def processar_tudo():
-    print("A descarregar o ficheiro de estrutura...")
-    conteudo_json = obter_html(URL_ESTRUTURA)
-    if not conteudo_json:
+    # 1. Handshake para obter o Token de Acesso
+    dados_token = requisicao_portal("handshake")
+    if not dados_token or 'js' not in dados_token:
+        print("Falha na autenticação. O MAC pode estar expirado ou bloqueado por IP.")
         return
         
-    try:
-        dados = json.loads(conteudo_json)
-        estrutura = dados.get("ESTRUTURA", [])
-    except Exception as e:
-        print(f"Erro ao decodificar JSON: {e}")
+    token = dados_token['js'].get('token')
+    
+    # 2. Obter todos os canais de TV
+    print("A descarregar lista de canais...")
+    dados_canais = requisicao_portal("get_all_channels", token=token)
+    
+    if not dados_canais or 'js' not in dados_canais or 'data' not in dados_canais['js']:
+        print("Não foi possível carregar a lista de canais.")
         return
-
-    with open(FICHEIRO_SAIDA, "w", encoding="utf-8") as f_saida:
-        # Cabeçalho padrão aceito pelas Smart TVs
-        f_saida.write(f'#EXTM3U x-tvg-url="{URL_EPG}"\n\n')
         
-        for item in estrutura:
-            nome_grupo = item.get("nome", "Geral")
-            url_fonte = item.get("url", "")
+    canais = dados_canais['js']['data']
+    
+    # 3. Criar a estrutura XML base
+    root = ET.Element("channels")
+    canais_convertidos = 0
+    
+    print("A converter dados para o formato XML estruturado...")
+    for canal in canais:
+        nome = canal.get('name', 'Canal Sem Nome').strip()
+        cmd = canal.get('cmd', '').strip()
+        grupo = canal.get('tv_genre_id', 'Geral') # ID ou categoria interna do portal
+        logo = canal.get('logo', '')
+        
+        # Limpar prefixos de emuladores do link de stream (ex: ffrt, ffmpeg)
+        if " " in cmd and cmd.startswith(("ffrt", "ffmpeg")):
+            link_stream = cmd.split(" ")[-1]
+        else:
+            link_stream = cmd
             
-            if not url_fonte:
-                continue
-                
-            print(f"A processar categoria: {nome_grupo}...")
-            conteudo_fonte = obter_html(url_fonte)
+        # Apenas processa links de vídeo válidos
+        if link_stream.startswith("http"):
+            item = ET.SubElement(root, "item")
+            ET.SubElement(item, "title").text = nome
+            ET.SubElement(item, "link").text = link_stream
+            ET.SubElement(item, "thumbnail").text = logo
+            ET.SubElement(item, "genre").text = str(grupo)
+            canais_convertidos += 1
             
-            if not conteudo_fonte:
-                continue
-            
-            # Identifica o tipo de conteúdo da fonte e converte para linhas M3U
-            if "#EXTM3U" in conteudo_fonte or "get.php" in url_fonte:
-                canais = extrair_m3u_externo(conteudo_fonte, nome_grupo)
-                for canal in canais:
-                    f_saida.write(canal)
-            elif "<item>" in conteudo_fonte or "<channel>" in conteudo_fonte:
-                canais = converter_xml_para_m3u(conteudo_fonte, nome_grupo)
-                for canal in canais:
-                    f_saida.write(canal)
-            else:
-                # Caso seja uma API Jellyfin/Emby (como os itens Filmes/Disney no seu JSON)
-                # Requer tratamento JSON específico para extrair os streams de vídeo locais.
-                if "Items?" in url_fonte:
-                    try:
-                        dados_jelly = json.loads(conteudo_fonte)
-                        for filme in dados_jelly.get("Items", []):
-                            f_nome = filme.get("Name")
-                            f_id = filme.get("Id")
-                            # Constrói o link direto de streaming do Jellyfin
-                            base_jelly = url_fonte.split("/Items")[0]
-                            api_key = url_fonte.split("api_key=")[1].split("&")[0]
-                            f_url = f"{base_jelly}/Videos/{f_id}/stream?static=true&api_key={api_key}"
-                            
-                            f_saida.write(f'#EXTINF:-1 group-title="{nome_grupo}",{f_nome}\n{f_url}\n\n')
-                    except:
-                        pass
-
-    print(f"\nConcluído! O ficheiro '{FICHEIRO_SAIDA}' está pronto para ser usado na Smart TV.")
+    # 4. Formatar o XML com indentação limpa
+    xml_string = ET.tostring(root, encoding="utf-8")
+    xml_bonito = minidom.parseString(xml_string).toprettyxml(indent="    ")
+    
+    # 5. Guardar o ficheiro final
+    with open(FICHEIRO_SAIDA_XML, "w", encoding="utf-8") as f:
+        f.write(xml_bonito)
+        
+    print(f"\nSucesso! {canais_convertidos} canais gravados em '{FICHEIRO_SAIDA_XML}'.")
 
 if __name__ == "__main__":
-    processar_tudo()
+    obter_canais_e_gerar_xml()
