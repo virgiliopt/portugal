@@ -1,4 +1,3 @@
-
 ##EXTM3U
 #EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/antena1.png",Rádio Antena 1
 https://streaming-live.rtp.pt/liveradio/antena180a/playlist.m3u8
