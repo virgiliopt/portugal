@@ -1,6 +1,6 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="" group-title="Portugal",[COLOR lightblue]** PT | GENERALISTAS | PT **[/COLOR]
+#EXTINF:-1 tvg-logo="" group-title="Portugal",[COLOR blue]**  Generalista  **[/COLOR]
 http://0.0.0
 
 #EXTINF:-1 group-title="Generalistas" tvg-logo="https://imgur.com",RTP 1 HD
@@ -42,7 +42,9 @@ https://production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/ch
 #EXTINF:-1 group-title="Internacional" tvg-logo="https://imgur.com",TV Zimbo
 https://sgn-cdn-video.vods2africa.com/Tv-Zimbo/index.fmp4.m3u8
 
-<!-- ================= FILMES TV ================= -->
+#EXTINF:-1 tvg-logo="" group-title="Fimes TV",[COLOR blue]** Filmes TV  **[/COLOR]
+http://0.0.0
+
 #EXTINF:-1 group-title="Filmes" tvg-logo="https://imgur.com",Top-Movies
 https://top-movies-rakuten-tv-pt.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6741/master.m3u8|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36
 
@@ -54,9 +56,13 @@ https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8|User-Agent=Mozilla
 
 #EXTINF:-1 group-title="Filmes" tvg-logo="https://imgur.com",LiveChannel
 https://48faa1daf24549fab34594bc5bdd99f2.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6213/master.m3u8|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36
+  
+#EXTINF:-1 tvg-logo="" group-title="Desporto TV",[COLOR blue]** Desporto TV  **[/COLOR]
+http://0.0.0
 
-<!-- ================= DESPORTO ================= -->
-<!-- ================= MUSICA ================= -->
+#EXTINF:-1 tvg-logo="" group-title="Musica TV",[COLOR blue]** Musica TV  **[/COLOR]
+http://0.0.0
+
 #EXTINF:-1 group-title="Música" tvg-logo="https://imgur.com",XITE Siempre Latino
 https://d1xc25jm9e0l4b.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-xplkt8i7m24dc/XITE_Siempre_Latino.m3u8
 
@@ -66,10 +72,14 @@ https://d3bsgqzbpkrvbb.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 group-title="Rádio" tvg-logo="https://imgur.com",Parecis FM
 https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8
 
-<!-- ================= Youtube ================= -->
+#EXTINF:-1 tvg-logo="" group-title="Youtube",[COLOR blue]** Youtube  **[/COLOR]
+http://0.0.0
+
 #EXTINF:-1 group-title="Eurovision-2018" tvg-logo="https://imgur.com",Salvador Sobral
 https://www.dropbox.com/scl/fi/h9st6l4d1cq949la1yp9f/Salvador-Sobral-performs-with-Caetano-Veloso-at-the-Grand-Final-of-the-2018-Eurovision-Song-Contest.mp4?rlkey=kpgc7eprh86629scl3ir7n93q&st=czwuasok&raw=1
 
-<!-- ================= ANIMAÇAO DISNEY ================= -->
+#EXTINF:-1 tvg-logo="" group-title=" Animaçao Disney",[COLOR blue]** Animaçao Disney  **[/COLOR]
+http://0.0.0
+
 #EXTINF:-1 group-title="Animaçao" tvg-logo="https://imgur.com",Pocahontas 2 
 https://www.dropbox.com/scl/fi/zfi5rdezci19b1knl0unx/Pocahontas-2-Viagem-a-um-Mundo-Novo.mp4?rlkey=760rhjghclbc10rvnxp6tpqni&st=o2x4j67u&raw=1
