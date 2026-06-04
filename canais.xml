@@ -1,6 +1,6 @@
 #EXTM3U
 
-<-- ================= GENERALISTAS ================= -->
+#EXTINF:-1 ================= GENERALISTAS ================= 
 #EXTINF:-1 group-title="Generalistas" tvg-logo="https://imgur.com",RTP 1 HD
 https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8
 
