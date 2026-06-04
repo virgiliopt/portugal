@@ -1,6 +1,6 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="" group-title="Portugal",COLOR lightblue]** PT | GENERALISTAS | PT **[/COLOR]
+#EXTINF:-1 tvg-logo="" group-title="Portugal",[COLOR lightblue]** PT | GENERALISTAS | PT **[/COLOR]
 http://0.0.0
 
 #EXTINF:-1 group-title="Generalistas" tvg-logo="https://imgur.com",RTP 1 HD
