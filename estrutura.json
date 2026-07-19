@@ -8,7 +8,7 @@
   },
   {
     "nome": "IPTV",
-    "url": "https://raw.githubusercontent.com/virgiliopt/portugal/refs/heads/main/iptv.m3u",
+    "url": "http://163.172.72.97:80/playlist/virgilio_casa/20121964/m3u?output=hls",
     "thumb": "https://iptvpanel24.com/wp-content/uploads/2024/10/XUI-IPTV-Player-Logo-Svensk-IPTV-e1729531059604.png",
     "fanart": "https://iptvpanel24.com/wp-content/uploads/2024/10/XUI-IPTV-Player-Logo-Svensk-IPTV-e1729531059604.png"
   },
