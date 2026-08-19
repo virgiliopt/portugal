@@ -8,7 +8,7 @@
   },
   {
     "nome": "IPTV",
-    "url": "http://163.172.72.97:80/playlist/virgilio_casa/20121964/m3u?output=hls",
+    "url": "http://tugaiptv.duckdns.org/get.php?username=virgilio_casa&password=20121964&type=m3u_plus&output=ts",
     "thumb": "https://iptvpanel24.com/wp-content/uploads/2024/10/XUI-IPTV-Player-Logo-Svensk-IPTV-e1729531059604.png",
     "fanart": "https://iptvpanel24.com/wp-content/uploads/2024/10/XUI-IPTV-Player-Logo-Svensk-IPTV-e1729531059604.png"
   },
