@@ -8,7 +8,7 @@
   },
   {
     "nome": "IPTV",
-    "url": "http://tugaiptv.duckdns.org/get.php?username=virgilio_casa&password=20121964&type=m3u_plus&output=ts",
+    "url": "",
     "thumb": "https://iptvpanel24.com/wp-content/uploads/2024/10/XUI-IPTV-Player-Logo-Svensk-IPTV-e1729531059604.png",
     "fanart": "https://iptvpanel24.com/wp-content/uploads/2024/10/XUI-IPTV-Player-Logo-Svensk-IPTV-e1729531059604.png"
   },
@@ -33,7 +33,7 @@
   {
     "nome": "PLEX",
     "cor_texto": "#E5A93B",
-    "url": "http://192.168.1.200:32400/library/sections/3/all?X-Plex-Token=MEZTvianC7VbzGqFMFFL",
+    "url": "",
     "thumb": "https://play-lh.googleusercontent.com/slZYN_wnlAZ4BmyTZZakwfwAGm8JE5btL7u7AifhqCtUuxhtVVxQ1mcgpGOYC7MsAaU=w240-h480-rw",
     "fanart": "https://leclaireur.fnac.com/wp-content/uploads/2022/08/plex.jpg"
   },
